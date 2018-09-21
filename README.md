@@ -1,1 +1,1 @@
-# Check if 2 complete triangales given Triangulation of a polynomial
+# Check if 2 complete triangles can be found given Triangulation of a polynomial
