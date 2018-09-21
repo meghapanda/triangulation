@@ -1,9 +1,9 @@
 # Check if 2 complete triangles can be found given Triangulation of a polynomial
 
 
-\includegraphics[]{../../../Downloads/42234501_255814281742838_8562490558432411648_n.png}
 
-The simple solution is 
+
+## The simple solution is 
 	1) convert the input from text to dictionary
 	2) Make a list of all points, and the number of adjacent points
 	3) Sort them in decreasing order w.r.t number of points
@@ -17,7 +17,7 @@ The simple solution is
 This solution will only work, when number of points inside polynomial >=3.
 We can prove that by construction that if  you find two uncoloured point adjacent to another uncoloured point (that is there is an edge between them), there exists a way to colour the points inside the polygon such that two complete triangles can be found.
 
-Resources:
+## Resources:
 https://www.geeksforgeeks.org
 https://docs.scipy.org
 https://docs.python-guide.org/writing/tests/
@@ -33,6 +33,8 @@ It took me a while to convert the graph to input
 
 If I had to start over again, I might want to solve a general case; optimize the code in few places, and try to print the solution. That is assigning colours to the points
 
+
+### CODE
 This code is written on python 2.7.14 |Anaconda custom (64-bit)| (default, Oct 27 2017, 11:24:26) 
 [GCC 4.2.1 Compatible Clang 4.0.1 (tags/RELEASE_401/final)]
 
