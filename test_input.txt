@@ -1,0 +1,12 @@
+A:B,C,E,F
+B:A,F,D
+C:A,D,E,G
+D:B,C,G,F
+E:A,C,F,G
+F:A,B,D,E,G
+G:C,E,D,F
+
+A:Red
+B:Red
+C:Yellow
+D:Blue
