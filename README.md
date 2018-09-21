@@ -19,9 +19,13 @@ We can prove that by construction that if  you find two uncoloured point adjacen
 
 ## Resources:
 https://www.geeksforgeeks.org
+
 https://docs.scipy.org
+
 https://docs.python-guide.org/writing/tests/
+
 https://docs.python.org/3/library/unittest.html
+
 https://www.cs.ucsb.edu/~suri/cs235/Triangulation.pdf
 
 
